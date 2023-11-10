@@ -1,0 +1,47 @@
+﻿.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageeva {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+    width: 100%; 
+    border: 2px solid #ddd; 
+    border-radius: 8px;
+    background-color: lightgray;
+}
+
+.imageeva img {
+       
+    width: 30%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.imageeva:hover img {
+    transform: scale(1.05); 
+}
+
+.imageeva p {
+    width: 30;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333; 
+    letter-spacing: 2px; 
+    line-height: 1.5; 
+    font-style: italic;
+}
+
+#head {
+    
+    color: black; 
+    font-family: 'Times New Roman', serif; 
+    font-style: italic; 
+    padding: 20px; 
+}
+

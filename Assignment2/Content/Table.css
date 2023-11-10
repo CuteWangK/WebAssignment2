@@ -1,0 +1,40 @@
+﻿
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+.table th {
+    background-color: lightgray; 
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+    text-decoration: none;
+}
+
+
+.table td, .table th {
+    border: 1px solid #ddd; 
+    padding: 8px;
+    background-color: lightgray;
+    text-decoration: none;
+}
+
+
+
+.table a {
+    color: black; 
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+.table a:hover {
+    text-decoration: none;
+    color: #23527c; 
+}
+
+
